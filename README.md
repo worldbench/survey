@@ -24,7 +24,7 @@
   - []()
   - []()
   - []()
-- [**5. Applications**]()
+- [**5. Applications**](#5-applications)
   - []()
   - []()
   - []()
@@ -207,7 +207,28 @@
 | Model | Paper | Venue | Website | GitHub | 
 |:-:|:-|:-:|:-:|:-:|
 ||
-
+| `DUSty-GAN` | [![arXiv](https://img.shields.io/badge/arXiv-2102.11952-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2102.11952)<br>Learning to Drop Points for LiDAR Scan Synthesis | IROS 2021 | 
+| `LiDARGen` | [![arXiv](https://img.shields.io/badge/arXiv-2209.03954-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2209.03954)<br>Learning to Generate Realistic LiDAR Point Clouds | ECCV 2022 |
+| `DUSty-GAN v2` | 
+| `UltraLiDAR` |
+| `Copilot4D` |
+| `R2DM` |
+| `LiDM` |
+| `ViDAR` |
+| `RangeLDM` |
+| `Text2LiDAR` |
+| `BEVWorld` |
+| `HoloDrive` | [![arXiv](https://img.shields.io/badge/arXiv-2412.01407-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.01407)<br>HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving | arXiv 2024 |
+| `LiDARGRIT` |
+| `SDS` |
+| `OLiDM` |
+| `X-Drive` |
+| `R2Flow` |
+| `LidarDM` |
+| `WeatherGen` |
+| `HERMES` |
+| `DriveX` |
+| `SPIRAL` |
 
 
 
