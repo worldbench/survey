@@ -174,8 +174,8 @@
 
 | Model | Paper | Venue | Website | GitHub | 
 |:-:|:-|:-:|:-:|:-:|
-|
-| `SemCity` |  | CVPR 2024 |
+||
+| `SemCity` | [![arXiv](https://img.shields.io/badge/arXiv-2403.07773-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2403.07773)<br>SemCity: Semantic Scene Generation with Triplane Diffusion | CVPR 2024 |
 | `XCube` |  | CVPR 2024 |
 | `PDD` |  | ECCV 2024 |
 | `InfiniCube` |  | arXiv 2024 | 
