@@ -216,12 +216,12 @@
 | `LiDM` | [![arXiv](https://img.shields.io/badge/arXiv-2404.00815-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2404.00815)<br>Towards Realistic Scene Generation with LiDAR Diffusion Models | CVPR 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://lidar-diffusion.github.io/) |  |
 | `ViDAR` | [![arXiv](https://img.shields.io/badge/arXiv-2312.17655-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2312.17655)<br>Visual Point Cloud Forecasting enables Scalable Autonomous Driving | CVPR 2024 |
 | `RangeLDM` | [![arXiv](https://img.shields.io/badge/arXiv-2403.10094-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2403.10094)<br>RangeLDM: Fast Realistic LiDAR Point Cloud Generation | ECCV 2024 | 
-| `Text2LiDAR` | [![arXiv](https://img.shields.io/badge/arXiv-2407.19628-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2407.19628)<br>Text2LiDAR: Text-guided LiDAR Point Cloud Generation via Equirectangular Transformer | ECCV 2024 | 
-| `BEVWorld` |
+| `Text2LiDAR` | [![arXiv](https://img.shields.io/badge/arXiv-2407.19628-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2407.19628)<br>Text2LiDAR: Text-Guided LiDAR Point Cloud Generation via Equirectangular Transformer | ECCV 2024 | 
+| `BEVWorld` | [![arXiv](https://img.shields.io/badge/arXiv-2407.05679-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2407.05679)<br>BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents | arXiv 2024 | 
 | `HoloDrive` | [![arXiv](https://img.shields.io/badge/arXiv-2412.01407-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.01407)<br>HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving | arXiv 2024 |
-| `LiDARGRIT` |
-| `SDS` |
-| `OLiDM` |
+| `LiDARGRIT` | [![arXiv](https://img.shields.io/badge/arXiv-2404.05505-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2404.05505)<br>Taming Transformers for Realistic Lidar Point Cloud Generation | arXiv 2024 |
+| `SDS` | [![arXiv](https://img.shields.io/badge/arXiv-2410.11628-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2410.11628)<br>Simultaneous Diffusion Sampling for Conditional LiDAR Generation | arXiv 2024 | 
+| `OLiDM` | [![arXiv](https://img.shields.io/badge/arXiv-2412.17226-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.17226)<br>OLiDM: Object-aware LiDAR Diffusion Models for Autonomous Driving | AAAI 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://yanty123.github.io/OLiDM) |  |
 | `X-Drive` |
 | `R2Flow` |
 | `LidarDM` |
