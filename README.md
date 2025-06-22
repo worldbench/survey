@@ -214,9 +214,9 @@
 | `Copilot4D` | [![arXiv](https://img.shields.io/badge/arXiv-2311.01017-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2311.01017)<br>Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion | ICLR 2024 | 
 | `R2DM` | [![arXiv](https://img.shields.io/badge/arXiv-2309.09256-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2309.09256)<br>LiDAR Data Synthesis with Denoising Diffusion Probabilistic Models | ICRA 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://kazuto1011.github.io/r2dm) |  |
 | `LiDM` | [![arXiv](https://img.shields.io/badge/arXiv-2404.00815-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2404.00815)<br>Towards Realistic Scene Generation with LiDAR Diffusion Models | CVPR 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://lidar-diffusion.github.io/) |  |
-| `ViDAR` |
-| `RangeLDM` |
-| `Text2LiDAR` |
+| `ViDAR` | [![arXiv](https://img.shields.io/badge/arXiv-2312.17655-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2312.17655)<br>Visual Point Cloud Forecasting enables Scalable Autonomous Driving | CVPR 2024 |
+| `RangeLDM` | [![arXiv](https://img.shields.io/badge/arXiv-2403.10094-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2403.10094)<br>RangeLDM: Fast Realistic LiDAR Point Cloud Generation | ECCV 2024 | 
+| `Text2LiDAR` | [![arXiv](https://img.shields.io/badge/arXiv-2407.19628-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2407.19628)<br>Text2LiDAR: Text-guided LiDAR Point Cloud Generation via Equirectangular Transformer | ECCV 2024 | 
 | `BEVWorld` |
 | `HoloDrive` | [![arXiv](https://img.shields.io/badge/arXiv-2412.01407-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.01407)<br>HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving | arXiv 2024 |
 | `LiDARGRIT` |
