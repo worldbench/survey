@@ -124,6 +124,34 @@
 
 ## World Modeling from Occupancy Generation
 
+### :one: 
+
+> :timer_clock: In chronological order, from the earliest to the latest.
+
+| Model | Paper | Venue | Website | GitHub | 
+|:-:|:-|:-:|:-:|:-:|
+||
+| `SSD` |
+| `WoVoGen` |
+| `UrbanDiff` | 
+| `DrivingSphere` |
+| `UniScene` | [![arXiv](https://img.shields.io/badge/arXiv-2412.05435-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.05435)<br>UniScene: Unified Occupancy-centric Driving Scene Generation | CVPR 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)] |
+||
+
+
+
+### :two: Occupancy Forecasting
+
+> :timer_clock: In chronological order, from the earliest to the latest.
+
+| Model | Paper | Venue | Website | GitHub | 
+|:-:|:-|:-:|:-:|:-:|
+||
+| `UniWorld` |
+| `Cam4DOcc` |
+| `DriveWorld` |
+| `UniOcc` | 
+||
 
 
 
