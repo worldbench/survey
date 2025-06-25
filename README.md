@@ -236,7 +236,7 @@
 | `InfiniCube` | [![arXiv](https://img.shields.io/badge/arXiv-2412.03934-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.03934)<br>InfiniCube: Unbounded and Controllable Dynamic 3D Driving Scene Generation with World-Guided Video Models | arXiv 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://research.nvidia.com/labs/toronto-ai/infinicube/) | - |
 | `DynamicCity` | [![arXiv](https://img.shields.io/badge/arXiv-2410.18084-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2410.18084)<br>DynamicCity: Large-Scale 4D Occupancy Generation from Dynamic Scenes | ICLR 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://dynamic-city.github.io/) | [![GitHub](https://img.shields.io/github/stars/3DTopia/DynamicCity)](https://github.com/3DTopia/DynamicCity) |
 | `X-Scene` | [![arXiv](https://img.shields.io/badge/arXiv-2506.13558-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2506.13558)<br>X-Scene: Large-Scale Driving Scene Generation with High Fidelity and Flexible Controllability | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://x-scene.github.io/) | [![GitHub](https://img.shields.io/github/stars/yuyang-cloud/X-Scene)](https://github.com/yuyang-cloud/X-Scene) |
-
+| `PrITTI` | [![arXiv](https://img.shields.io/badge/arXiv-2506.19117-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2506.19117)<br>PrITTI: Primitive-Based Generation of Controllable and Editable 3D Semantic Scenes | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://raniatze.github.io/pritti/) | [![GitHub](https://img.shields.io/github/stars/avg-dev/PrITTI)](https://github.com/avg-dev/PrITTI) |
 
 
 # 3. World Modeling from LiDAR Generation
@@ -263,9 +263,9 @@
 | `HoloDrive` | [![arXiv](https://img.shields.io/badge/arXiv-2412.01407-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.01407)<br>HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving | arXiv 2024 |
 | `LiDARGRIT` | [![arXiv](https://img.shields.io/badge/arXiv-2404.05505-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2404.05505)<br>Taming Transformers for Realistic Lidar Point Cloud Generation | arXiv 2024 |
 | `SDS` | [![arXiv](https://img.shields.io/badge/arXiv-2410.11628-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2410.11628)<br>Simultaneous Diffusion Sampling for Conditional LiDAR Generation | arXiv 2024 | 
-| `OLiDM` | [![arXiv](https://img.shields.io/badge/arXiv-2412.17226-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.17226)<br>OLiDM: Object-aware LiDAR Diffusion Models for Autonomous Driving | AAAI 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://yanty123.github.io/OLiDM) |  |
-| `X-Drive` |
-| `R2Flow` |
+| `OLiDM` | [![arXiv](https://img.shields.io/badge/arXiv-2412.17226-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.17226)<br>OLiDM: Object-Aware LiDAR Diffusion Models for Autonomous Driving | AAAI 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://yanty123.github.io/OLiDM) |  |
+| `X-Drive` | [![arXiv](https://img.shields.io/badge/arXiv-2411.01123-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2411.01123)<br>X-Drive: Cross-Modality Consistent Multi-Sensor Data Synthesis for Driving Scenarios | ICLR 2025 | - | [![GitHub](https://img.shields.io/github/stars/yichen928/X-Drive)](https://github.com/yichen928/X-Drive) |
+| `R2Flow` | [![arXiv](https://img.shields.io/badge/arXiv-2412.02241-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.02241)<br>Fast LiDAR Data Generation with Rectified Flows | ICRA 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://kazuto1011.github.io/r2flow/) | [![GitHub](https://img.shields.io/github/stars/kazuto1011/r2flow)](https://github.com/kazuto1011/r2flow) |
 | `LidarDM` |
 | `WeatherGen` |
 | `HERMES` |
