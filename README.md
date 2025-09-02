@@ -9,39 +9,38 @@
 
 
 ### Table of Contents
-- [:sunglasses: Awesome 3D and 4D World Models](#sunglasses-awesome-3d-and-4d-world-models)
-    - [Table of Contents](#table-of-contents)
-- [1. World Modeling from Video Generation](#1-world-modeling-from-video-generation)
-    - [:one: Data Engine](#one-data-engine)
-    - [:two: Action Interpreter](#two-action-interpreter)
-  - [:three: Neural Simulator](#three-neural-simulator)
-    - [:four: Scene Reconstructor](#four-scene-reconstructor)
-- [2. World Modeling from Occupancy Generation](#2-world-modeling-from-occupancy-generation)
-    - [:one: Scene Representor](#one-scene-representor)
-    - [:two: Occupancy Forecaster](#two-occupancy-forecaster)
-    - [:three: Autoregressive Simulator](#three-autoregressive-simulator)
-- [3. World Modeling from LiDAR Generation](#3-world-modeling-from-lidar-generation)
-    - [:one: Data Engine](#one-data-engine-1)
-    - [:two: Action Forecaster](#two-action-forecaster)
-    - [:three: Autoregressive Simulator](#three-autoregressive-simulator-1)
-- [4. Datasets \& Benchmarks](#4-datasets--benchmarks)
-    - [:one: Datasets](#one-datasets)
-- [5. Applications](#5-applications)
-    - [:one: Autonomous Driving](#one-autonomous-driving)
-    - [:two: Robotics](#two-robotics)
-    - [:three: Video Games \& XR](#three-video-games--xr)
-    - [:four: Digital Twins](#four-digital-twins)
-- [6. Other Resources](#6-other-resources)
+- [**1. World Modeling from Video Generation**](#1-world-modeling-from-video-generation)
+    - [Data Engines](#one-data-engines)
+    - [Action Interpreters](#two-action-interpreters)
+    - [Neural Simulators](#three-neural-simulators)
+    - [Scene Reconstructors](#four-scene-reconstructors)
+- [**2. World Modeling from Occupancy Generation**](#2-world-modeling-from-occupancy-generation)
+    - [Scene Representors](#one-scene-representors)
+    - [Occupancy Forecasters](#two-occupancy-forecasters)
+    - [Autoregressive Simulators](#three-autoregressive-simulators)
+- [**3. World Modeling from LiDAR Generation**](#3-world-modeling-from-lidar-generation)
+    - [Data Engines](#one-data-engines-1)
+    - [Action Forecasters](#two-action-forecasters)
+    - [Autoregressive Simulators](#three-autoregressive-simulators-1)
+- [**4. Datasets \& Benchmarks**](#4-datasets--benchmarks)
+    - [Datasets](#datasets)
+    - [Benchmarks](#benchmarks)
+- [**5. Applications**](#5-applications)
+    - [Autonomous Driving](#one-autonomous-driving)
+    - [Robotics](#two-robotics)
+    - [Video Games \& XR](#three-video-games--xr)
+    - [Digital Twins](#four-digital-twins)
+- [**6. Other Resources**](#6-other-resources)
     - [Workshops](#workshops)
     - [Tutorials](#tutorials)
     - [Talks \& Seminars](#talks--seminars)
-- [7. Acknowledgements](#7-acknowledgements)
+- [**7. Acknowledgements**](#7-acknowledgements)
 
 
 
 # 1. World Modeling from Video Generation
 
-### :one: Data Engine
+### :one: Data Engines
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -81,7 +80,7 @@
 
 
 
-### :two: Action Interpreter
+### :two: Action Interpreters
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -111,7 +110,7 @@
 
 
 
-## :three: Neural Simulator
+## :three: Neural Simulators
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -134,7 +133,7 @@
 
 
 
-### :four: Scene Reconstructor
+### :four: Scene Reconstructors
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -181,7 +180,7 @@
 
 # 2. World Modeling from Occupancy Generation
 
-### :one: Scene Representor
+### :one: Scene Representors
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -202,7 +201,7 @@
 
 
 
-### :two: Occupancy Forecaster
+### :two: Occupancy Forecasters
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -239,7 +238,7 @@
 
 
 
-### :three: Autoregressive Simulator
+### :three: Autoregressive Simulators
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -257,9 +256,12 @@
 | `PrITTI` | [![arXiv](https://img.shields.io/badge/arXiv-2506.19117-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2506.19117)<br>PrITTI: Primitive-Based Generation of Controllable and Editable 3D Semantic Scenes | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://raniatze.github.io/pritti/) | [![GitHub](https://img.shields.io/github/stars/avg-dev/PrITTI)](https://github.com/avg-dev/PrITTI) |
 
 
+
+
+
 # 3. World Modeling from LiDAR Generation
 
-### :one: Data Engine
+### :one: Data Engines
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -301,7 +303,9 @@
 | `Veila` | [![arXiv](https://img.shields.io/badge/arXiv-2508.03690-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.03690)<br>Veila: Panoramic LiDAR Generation from a Monocular RGB Image |  arXiv 2025 | - | - |
 | `LiDARCrafter` | [![arXiv](https://img.shields.io/badge/arXiv-2508.03692-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.03692)<br>LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://lidarcrafter.github.io/) | [![GitHub](https://img.shields.io/github/stars/lidarcrafter/toolkit)](https://github.com/lidarcrafter/toolkit) |
 
-### :two: Action Forecaster
+
+
+### :two: Action Forecasters
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -315,7 +319,7 @@
 | `DriveX` | [![arXiv](https://img.shields.io/badge/arXiv-2505.19239-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2505.19239)<br>DriveX: Omni Scene Modeling for Learning Generalizable World Knowledge in Autonomous Driving |  arXiv 2025 | - | - |
 
 
-### :three: Autoregressive Simulator 
+### :three: Autoregressive Simulators
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -328,15 +332,18 @@
 | `LiDARCrafter` | [![arXiv](https://img.shields.io/badge/arXiv-2508.03692-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.03692)<br>LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://lidarcrafter.github.io/) | [![GitHub](https://img.shields.io/github/stars/lidarcrafter/toolkit)](https://github.com/lidarcrafter/toolkit) |
 
 
+
+
+
 # 4. Datasets & Benchmarks
-### :one: Datasets
+### Datasets
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
 | Model | Paper | Venue | Website | 
 |:-:|:-|:-:|:-:|
 ||
-| `KITTI` | Are we ready for autonomous driving? the KITTI vision benchmark suite | CVPR 2012 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.cvlibs.net/datasets/kitti/) |
+| `KITTI` | Are We Ready for Autonomous Driving? The KITTI Vision Benchmark Suite | CVPR 2012 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.cvlibs.net/datasets/kitti/) |
 | `NYUv2` | Indoor segmentation and support inference from RGBD images | ECCV 2012 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html) |
 | `CARLA` | [![arXiv](https://img.shields.io/badge/arXiv-1711.03938-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1711.03938)<br>CARLA: An Open Urban Driving Simulator | CoRL 2017 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://carla.org/) |
 | `SemanticKITTI` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1904.01416)<br>SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences | ICCV 2019 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://semantic-kitti.org/) |
@@ -360,6 +367,10 @@
 | `DrivingDojo` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2410.10738)<br>DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model | NeurIPS 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://huggingface.co/datasets/Yuqi1997/DrivingDojo) |
 | `EUVS` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.05256)<br>Extrapolated Urban View Synthesis Benchmark | ICCV 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://ai4ce.github.io/EUVS-Benchmark/) |
 | `Pi3DET` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2507.17665)<br>Perspective-Invariant 3D Object Detection | ICCV 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://pi3det.github.io) |
+
+
+
+### Benchmarks
 
 
 
