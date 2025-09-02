@@ -296,6 +296,27 @@
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
+| Model | Paper | Venue | Website | GitHub | 
+|:-:|:-|:-:|:-:|:-:|
+||
+| `Copilot4D` | [![arXiv](https://img.shields.io/badge/arXiv-2311.01017-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2311.01017)<br>Copilot4D: Learning Unsupervised World Models for Autonomous Driving via Discrete Diffusion | ICLR 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://waabi.ai/research/copilot-4d) | - |
+| `ViDAR` | [![arXiv](https://img.shields.io/badge/arXiv-2312.17655-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2312.17655)<br>Visual Point Cloud Forecasting enables Scalable Autonomous Driving | CVPR 2024 | - | [![GitHub](https://img.shields.io/github/stars/OpenDriveLab/ViDAR)](https://github.com/OpenDriveLab/ViDAR) |
+| `BEVWorld` | [![arXiv](https://img.shields.io/badge/arXiv-2407.05679-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2407.05679)<br>BEVWorld: A Multimodal World Simulator for Autonomous Driving via Scene-Level BEV Latents | arXiv 2024 | - | [![GitHub](https://img.shields.io/github/stars/zympsyche/BevWorld)](https://github.com/zympsyche/BevWorld) | 
+| `HERMES` | [![arXiv](https://img.shields.io/badge/arXiv-2501.14729-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2501.14729)<br>HERMES: A Unified Self-Driving World Model for Simultaneous 3D Scene Understanding and Generation | ICCV 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://lmd0311.github.io/HERMES/) | [![GitHub](https://img.shields.io/github/stars/LMD0311/HERMES)](https://github.com/LMD0311/HERMES) |
+| `DriveX` | [![arXiv](https://img.shields.io/badge/arXiv-2505.19239-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2505.19239)<br>DriveX: Omni Scene Modeling for Learning Generalizable World Knowledge in Autonomous Driving |  arXiv 2025 | - | - |
+
+
+### :three: Autoregressive Simulator 
+
+> :timer_clock: In chronological order, from the earliest to the latest.
+
+| Model | Paper | Venue | Website | GitHub | 
+|:-:|:-|:-:|:-:|:-:|
+||
+| `HoloDrive` | [![arXiv](https://img.shields.io/badge/arXiv-2412.01407-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.01407)<br>HoloDrive: Holistic 2D-3D Multi-Modal Street Scene Generation for Autonomous Driving | arXiv 2024 | - | - |
+| `LidarDM` | [![arXiv](https://img.shields.io/badge/arXiv-2404.02903-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2404.02903)<br>LidarDM: Generative LiDAR Simulation in a Generated World | ICRA 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://zyrianov.org/lidardm/) | [![GitHub](https://img.shields.io/github/stars/vzyrianov/lidardm)](https://github.com/vzyrianov/lidardm) |  
+| `OpenDWM` | [![arXiv](https://img.shields.io/badge/arXiv-2412.02241-b31b1b?style=flat-square&logo=arxiv)](https://github.com/SenseTime-FVG/OpenDWM)<br>OpenDWM: Open Driving World Models |  arXiv 2025 | - | [![GitHub](https://img.shields.io/github/stars/SenseTime-FVG/OpenDWM)](https://github.com/SenseTime-FVG/OpenDWM) |
+| `LiDARCrafter` | [![arXiv](https://img.shields.io/badge/arXiv-2508.03692-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.03692)<br>LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://lidarcrafter.github.io/) | [![GitHub](https://img.shields.io/github/stars/lidarcrafter/toolkit)](https://github.com/lidarcrafter/toolkit) |
 
 
 # 4. Datasets & Benchmarks
