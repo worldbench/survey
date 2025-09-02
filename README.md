@@ -4,6 +4,8 @@
 
 # :sunglasses: Awesome 3D and 4D World Models
 
+| <img width="100%" src="docs/figures/teaser.png"> |
+|:-:|
 
 
 ### Table of Contents
