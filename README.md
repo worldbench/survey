@@ -292,7 +292,7 @@
 | `Veila` | [![arXiv](https://img.shields.io/badge/arXiv-2508.03690-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.03690)<br>Veila: Panoramic LiDAR Generation from a Monocular RGB Image |  arXiv 2025 | - | - |
 | `LiDARCrafter` | [![arXiv](https://img.shields.io/badge/arXiv-2508.03692-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.03692)<br>LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://lidarcrafter.github.io/) | [![GitHub](https://img.shields.io/github/stars/lidarcrafter/toolkit)](https://github.com/lidarcrafter/toolkit) |
 
-### :two: LiDAR Forecaster
+### :two: Action Forecaster
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
