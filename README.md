@@ -9,8 +9,8 @@
 ### Table of Contents
 - [**1. World Modeling from Video Generation**](#1-world-modeling-from-video-generation)
   - [Data Engine](#one-data-engine)
-  - []()
-  - [Closed-Loop Simulator](#three-closed-loop-simulator)
+  - [Action Interpreter](#two-action-interpreter)
+  - [Neural Simulator](#three-neural-simulator)
   - [Scene Reconstructor](#four-scene-reconstructor)
 - [**2. World Modeling from Occupancy Generation**](#2-world-modeling-from-occupancy-generation)
   - []()
@@ -78,7 +78,7 @@
 
 
 
-### :two:
+### :two: Action Interpreter
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
@@ -103,13 +103,12 @@
 | `DriVerse` | [![arXiv](https://img.shields.io/badge/arXiv-2504.18576-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2504.18576)<br>DriVerse: Navigation World Model for Driving Simulation via Multimodal Trajectory Prompting and Motion Alignment | arXiv 2025 | - | - |
 | `PosePilot` | [![arXiv](https://img.shields.io/badge/arXiv-2505.01729-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2505.01729)<br>PosePilot: Steering Camera Pose for Generative World Models with Self-Supervised Depth | arXiv 2025 | - | - |
 | `ProphetDWM` | [![arXiv](https://img.shields.io/badge/arXiv-2505.18650-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2505.18650)<br>ProphetDWM: A Driving World Model for Rolling Out Future Actions and Videos | arXiv 2025 | - | - |
-| `GeoDrive` | [![arXiv](https://img.shields.io/badge/arXiv-2505.22421-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2505.22421)<br>GeoDrive: 3D Geometry-Informed Driving World Model with Precise Action Control | arXiv 2025 | - | [![GitHub](https://img.shields.io/github/stars/antonioo-c/GeoDrive)](https://github.com/antonioo-c/GeoDrive) |
 | `LongDWM` | [![arXiv](https://img.shields.io/badge/arXiv-2506.01546-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2506.01546)<br>LongDWM: Cross-Granularity Distillation for Building A Long-Term Driving World Model | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://wang-xiaodong1899.github.io/longdwm/) | [![GitHub](https://img.shields.io/github/stars/Wang-Xiaodong1899/Long-DWM)](https://github.com/Wang-Xiaodong1899/Long-DWM) |
 ||
 
 
 
-## :three: Closed-Loop Simulator
+## :three: Neural Simulator
 
 > :timer_clock: In chronological order, from the earliest to the latest.
 
