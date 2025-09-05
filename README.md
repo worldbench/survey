@@ -9,7 +9,7 @@
 
 This survey reviews **3D and 4D world models** - models that learn, predict, and simulate the geometry and dynamics of real environments from multi-modal signals. We unify terminology, scope, and evaluations, and organize the space into three complementary paradigms by representation: **VideoGen** (image/video-centric), **OccGen** (occupancy-centric), and **LiDARGen** (point-cloud-centric). 
 
-For more details, kindly refer to our [paper](docs/paper.pdf) and [project page](https://worldbench.github.io/survey). :rocket:
+For more details, kindly refer to our [paper](https://worldbench.github.io/survey.pdf) and [project page](https://worldbench.github.io/survey). :rocket:
 
 
 ### :books: Citation 
