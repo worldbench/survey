@@ -454,7 +454,9 @@ If you find this work helpful for your research, please kindly consider citing o
 # 6. Other Resources
 
 ### Workshops
-
+- [`CVPR 2025 Workshop & Challenge | OpenDriveLab`](https://opendrivelab.com/challenge2025/#1x-wm) Track: World Model.
+- [`World Model Bench @ CVPR'25`](https://worldmodelbench.github.io/) WorldModelBench: The 1st Workshop on Benchmarking World Models
+- [`CVPR 2024 Workshop & Challenge | OpenDriveLab`](https://opendrivelab.com/challenge2024/#predictive_world_model) Track #4: Predictive World Model.
 
 ### Tutorials
 
