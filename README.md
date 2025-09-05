@@ -11,7 +11,6 @@ This survey reviews **3D and 4D world models** - models that learn, predict, and
 
 For more details, kindly refer to our [paper](docs/paper.pdf) and [project page](https://worldbench.github.io/survey). :rocket:
 
-  
 
 ### :books: Citation 
 
@@ -57,10 +56,8 @@ If you find this work helpful for your research, please kindly consider citing o
 
 
 
-
 | <img width="100%" src="docs/figures/tree.png"> |
 |:-:|
-
 
 
 # 1. World Modeling from Video Generation
