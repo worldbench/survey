@@ -70,10 +70,8 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | | |
 |:-:|:-|
-| <img width="280px" src="docs/figures/teaser_anni-min.gif"> | World modeling has become a cornerstone of modern AI, enabling agents to understand, represent, and predict dynamic environments. While prior research has focused primarily on 2D images and videos, the rapid emergence of native 3D and 4D representations (e.g., RGB-D, occupancy grids, LiDAR point clouds) calls for a dedicated study.<br><br>Our survey is the first comprehensive review explicitly centered on 3D and 4D world models. We:<br>- Provide precise definitions and taxonomies of world modeling in 3D and 4D.<br>- Categorize methodologies across three key tasks: **VideoGen**, **OccGen**, and **LiDARGen**.<br>- Systematically summarize datasets, evaluation metrics, and applications.<br>- Highlight open challenges and promising research directions. |
+| <img width="250px" src="docs/figures/teaser_anni-min.gif"> | World modeling has become a cornerstone of modern AI, enabling agents to understand, represent, and predict dynamic environments. While prior research has focused primarily on 2D images and videos, the rapid emergence of native 3D and 4D representations (e.g., RGB-D, occupancy grids, LiDAR point clouds) calls for a dedicated study. |
 | | |
-
-This work aims to serve as both a **reference** and **tutorial** for researchers entering the field of embodied AI, robotics, and generative modeling.
 
 
 ## What Are Native 3D Representations?
