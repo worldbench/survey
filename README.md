@@ -7,9 +7,15 @@
 | <img width="100%" src="docs/figures/teaser.png"> |
 |:-:|
 
-This survey reviews **3D and 4D world models** - systems that learn, predict, and simulate the geometry and dynamics of real environments from multi-modal signals. 
+This survey reviews state-of-the-art **3D and 4D world models** - systems that learn, predict, and simulate the geometry and dynamics of real environments from multi-modal signals. 
 
-We unify terminology, scope, and evaluations, and organize the space into three complementary paradigms by representation: **VideoGen** (image/video-centric), **OccGen** (occupancy-centric), and **LiDARGen** (point-cloud-centric). 
+We unify terminology, scope, and evaluations, and organize the space into three complementary paradigms by representation:
+| | |
+|:-:|:-|
+| <img width="200px" src="docs/figures/icon_videogen.png"> | Learn generative or predictive models from sequential video streams with geometric and temporal constraints. VideoGen focuses on long-horizon consistency, controllability, and scene-level generation, enabling agents to imagine or forecast plausible video rollouts. |
+| <img width="200px" src="docs/figures/icon_occgen.png"> | Model 3D/4D occupancy grids that encode geometry and semantics in voxel space. OccGen provides a physics-consistent scaffold for robust perception, forecasting, and simulation, bridging low-level sensor data and high-level reasoning. |
+| <img width="200px" src="docs/figures/icon_lidargen.png"> | Leverage point cloud sequences from LiDAR sensors to generate or predict geometry-grounded scenes. LiDARGen emphasizes high-fidelity 3D structure, robustness to environment changes, and applications in safety-critical domains such as autonomous driving. |
+| | |
 
 For more details, kindly refer to our [paper](https://worldbench.github.io/survey.pdf) and [project page](https://worldbench.github.io/survey). :rocket:
 
