@@ -17,7 +17,7 @@ We unify terminology, scope, and evaluations, and organize the space into three 
 | <img width="240px" src="docs/figures/icon_lidargen.png"> | Leverage point cloud sequences from LiDAR sensors to generate or predict geometry-grounded scenes. LiDARGen emphasizes high-fidelity 3D structure, robustness to environment changes, and applications in safety-critical domains such as autonomous driving. |
 | | |
 
-For more details, kindly refer to our [paper](https://worldbench.github.io/survey.pdf) and [project page](https://worldbench.github.io/survey). :rocket:
+For more details, kindly refer to our [paper](https://huggingface.co/papers/2509.07996) and [project page](https://worldbench.github.io/survey). :rocket:
 
 
 ### :books: Citation 
@@ -35,6 +35,7 @@ If you find this work helpful for your research, please kindly consider citing o
 
 
 ### Table of Contents
+- [**0. Background**](#background)
 - [**1. World Modeling from Video Generation**](#1-world-modeling-from-video-generation)
     - [Data Engines](#one-data-engines)
     - [Action Interpreters](#two-action-interpreters)
@@ -64,8 +65,40 @@ If you find this work helpful for your research, please kindly consider citing o
 
 
 
+# Background
+
+World modeling has become a cornerstone of modern AI, enabling agents to understand, represent, and predict dynamic environments. While prior research has focused primarily on 2D images and videos, the rapid emergence of native 3D and 4D representations (e.g., RGB-D, occupancy grids, LiDAR point clouds) calls for a dedicated study.
+
+Our survey is the first comprehensive review explicitly centered on 3D and 4D world models. We:
+- Provide precise definitions and taxonomies of world modeling in 3D and 4D.
+- Categorize methodologies across three key tasks: **VideoGen**, **OccGen**, and **LiDARGen**.
+- Systematically summarize datasets, evaluation metrics, and applications.
+- Highlight open challenges and promising research directions.
+
+This work aims to serve as both a **reference** and **tutorial** for researchers entering the field of embodied AI, robotics, and generative modeling.
+
+## What Are Native 3D Representations?
+
+Unlike 2D projections, native 3D/4D signals directly encode metric geometry, visibility, and motion in the physical coordinates where agents act. Examples include:
+- RGB-D imagery (2D images with depth channels)
+- Occupancy grids (voxelized maps of free vs. occupied space)
+- LiDAR point clouds (3D coordinates from active sensing)
+- Neural fields (e.g., NeRF, Gaussian Splatting)
+
+
+## What Are World Models in 3D and 4D?
+
+A world model is an internal representation that allows an agent to imagine, forecast, and interact with its environment.
+- **Generative World Models:** synthesize plausible 3D/4D worlds under conditions (e.g., text prompts, trajectories).
+- **Predictive World Models:** anticipate the future evolution of 3D/4D scenes given past observations and actions.
+
+Together, these models provide the foundation for simulation, planning, and embodied intelligence in complex environments.
+
 | <img width="100%" src="docs/figures/tree.png"> |
 |:-:|
+
+
+
 
 
 # 1. World Modeling from Video Generation
