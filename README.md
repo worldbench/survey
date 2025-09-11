@@ -7,7 +7,9 @@
 | <img width="100%" src="docs/figures/teaser.png"> |
 |:-:|
 
-This survey reviews **3D and 4D world models** - models that learn, predict, and simulate the geometry and dynamics of real environments from multi-modal signals. We unify terminology, scope, and evaluations, and organize the space into three complementary paradigms by representation: **VideoGen** (image/video-centric), **OccGen** (occupancy-centric), and **LiDARGen** (point-cloud-centric). 
+This survey reviews **3D and 4D world models** - systems that learn, predict, and simulate the geometry and dynamics of real environments from multi-modal signals. 
+
+We unify terminology, scope, and evaluations, and organize the space into three complementary paradigms by representation: **VideoGen** (image/video-centric), **OccGen** (occupancy-centric), and **LiDARGen** (point-cloud-centric). 
 
 For more details, kindly refer to our [paper](https://worldbench.github.io/survey.pdf) and [project page](https://worldbench.github.io/survey). :rocket:
 
@@ -19,7 +21,7 @@ If you find this work helpful for your research, please kindly consider citing o
 @article{survey_3d_4d_world_model,
     title   = {3D and 4D World Modeling: A Survey},
     author  = {Lingdong Kong and Wesley Yang and Jianbiao Mei and Youquan Liu and Ao Liang and Dekai Zhu and Dongyue Lu and Wei Yin and Xiaotao Hu and Mingkai Jia and Junyuan Deng and Kaiwen Zhang and Yang Wu and Tianyi Yan and Shenyuan Gao and Song Wang and Linfeng Li and Liang Pan and Yong Liu and Jianke Zhu and Wei Tsang Ooi and Steven C.H. Hoi and Ziwei Liu},
-    journal = {arXiv preprint arXiv:2509.xxxxx},
+    journal = {arXiv preprint arXiv:2509.07996},
     year    = {2025},
 }
 ```
