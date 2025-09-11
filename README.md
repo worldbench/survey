@@ -25,7 +25,7 @@ For more details, kindly refer to our [paper](https://huggingface.co/papers/2509
 
 If you find this work helpful for your research, please kindly consider citing our paper:
 ```bib
-@article{survey_3d_4d_world_model,
+@article{survey_3d_4d_world_models,
     title   = {3D and 4D World Modeling: A Survey},
     author  = {Lingdong Kong and Wesley Yang and Jianbiao Mei and Youquan Liu and Ao Liang and Dekai Zhu and Dongyue Lu and Wei Yin and Xiaotao Hu and Mingkai Jia and Junyuan Deng and Kaiwen Zhang and Yang Wu and Tianyi Yan and Shenyuan Gao and Song Wang and Linfeng Li and Liang Pan and Yong Liu and Jianke Zhu and Wei Tsang Ooi and Steven C.H. Hoi and Ziwei Liu},
     journal = {arXiv preprint arXiv:2509.07996},
@@ -37,22 +37,22 @@ If you find this work helpful for your research, please kindly consider citing o
 
 ### Table of Contents
 - [**0. Background**](#background)
-- [**1. World Modeling from Video Generation**](#1-world-modeling-from-video-generation)
+- [**1. Benchmarks \& Datasets**](#1-benchmarks--datasets)
+    - [Benchmarks](#benchmarks)
+    - [Datasets](#datasets)
+- [**2. World Modeling from Video Generation**](#2-world-modeling-from-video-generation)
     - [Data Engines](#one-data-engines)
     - [Action Interpreters](#two-action-interpreters)
     - [Neural Simulators](#three-neural-simulators)
     - [Scene Reconstructors](#four-scene-reconstructors)
-- [**2. World Modeling from Occupancy Generation**](#2-world-modeling-from-occupancy-generation)
+- [**3. World Modeling from Occupancy Generation**](#3-world-modeling-from-occupancy-generation)
     - [Scene Representors](#one-scene-representors)
     - [Occupancy Forecasters](#two-occupancy-forecasters)
     - [Autoregressive Simulators](#three-autoregressive-simulators)
-- [**3. World Modeling from LiDAR Generation**](#3-world-modeling-from-lidar-generation)
+- [**4. World Modeling from LiDAR Generation**](#4-world-modeling-from-lidar-generation)
     - [Data Engines](#one-data-engines-1)
     - [Action Forecasters](#two-action-forecasters)
     - [Autoregressive Simulators](#three-autoregressive-simulators-1)
-- [**4. Datasets \& Benchmarks**](#4-datasets--benchmarks)
-    - [Datasets](#datasets)
-    - [Benchmarks](#benchmarks)
 - [**5. Applications**](#5-applications)
     - [Autonomous Driving](#one-autonomous-driving)
     - [Robotics](#two-robotics)
@@ -105,7 +105,48 @@ Together, these models provide the foundation for simulation, planning, and embo
 
 
 
-# 1. World Modeling from Video Generation
+# 1. Benchmarks & Datasets
+
+### Benchmarks
+
+
+
+### Datasets
+
+> :timer_clock: In chronological order, from the earliest to the latest.
+
+| Model | Paper | Venue | Website | 
+|:-:|:-|:-:|:-:|
+||
+| `KITTI` | Are We Ready for Autonomous Driving? The KITTI Vision Benchmark Suite | CVPR 2012 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.cvlibs.net/datasets/kitti/) |
+| `NYUv2` | Indoor Segmentation and Support Inference from RGBD Images | ECCV 2012 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html) |
+| `CARLA` | [![arXiv](https://img.shields.io/badge/arXiv-1711.03938-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1711.03938)<br>CARLA: An Open Urban Driving Simulator | CoRL 2017 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://carla.org/) |
+| `SemanticKITTI` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1904.01416)<br>SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences | ICCV 2019 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://semantic-kitti.org/) |
+| `nuScenes` | [![arXiv](https://img.shields.io/badge/arXiv-1903.11027-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1903.11027)<br>nuScenes: A Multimodal Dataset for Autonomous Driving | CVPR 2020 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.nuscenes.org/) |
+| `Waymo Open` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1912.04838)<br>Scalability in Perception for Autonomous Driving: Waymo Open Dataset | CVPR 2020 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://waymo.com/open/) |
+| `STF` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1902.08913)<br>Seeing Through Fog Without Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather | CVPR 2020 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/princeton-computational-imaging/SeeingThroughFog) |
+| `Virtual KITTI 2` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2001.10773)<br>Virtual KITTI 2 | arXiv 2020 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/) |
+| `Argoverse 2` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2301.00493)<br>Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting | NeurIPS 2021 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.argoverse.org/av2.html) |
+| `Lyft-Level5` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2006.14480)<br>One Thousand and One Hours: Self-Driving Motion Prediction Dataset | CoRL 2021 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/lyft/nuscenes-devkit/) |
+| `nuPlan` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2106.11810)<br>nuPlan: A Closed-Loop ML-Based Planning Benchmark for Autonomous Vehicles | CVPRW 2021 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.nuscenes.org/nuplan) |
+| `PandaSet` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2112.12610)<br>PandaSet: Advanced Sensor Suite Dataset for Autonomous Driving | ITSC 2022 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://pandaset.org/) |
+| `OpenCOOD` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2109.07644)<br>OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication | ICRA 2022 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://mobility-lab.seas.ucla.edu/opv2v/) |
+| `KITTI-360` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2109.13410)<br>KITTI-360: A Novel Dataset and Benchmarks for Urban Scene Understanding in 2D and 3D | TPAMI 2022 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.cvlibs.net/datasets/kitti-360/) |
+| `CarlaSC` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2203.07060)<br>MotionSC: Data Set and Network for Real-Time Semantic Mapping in Dynamic Environments | RA-L 2022 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://umich-curly.github.io/CarlaSC.github.io/) |
+| `Robo3D` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2303.17597)<br>Robo3D: Towards Robust and Reliable 3D Perception against Corruptions | ICCV 2023 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/ldkong1205/Robo3D) |
+| `OpenOccupancy` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2303.03991)<br>OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception | ICCV 2023 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/JeffWang987/OpenOccupancy) |
+| `Occ3D-nuScenes` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2304.14365)<br>Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving | NeurIPS 2023 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://tsinghua-mars-lab.github.io/Occ3D/) |
+| `OpenDV-YouTube` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2403.09630)<br>GenAD: Generalized Predictive Model for Autonomous Driving | CVPR 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/OpenDriveLab/DriveAGI/blob/main/opendv/README.md) |
+| `SSCBench` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2306.09001)<br>SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving | IROS 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/ai4ce/SSCBench) |
+| `NAVSIM` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2406.15349)<br>NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking | NeurIPS 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/autonomousvision/navsim) |
+| `DrivingDojo` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2410.10738)<br>DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model | NeurIPS 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://huggingface.co/datasets/Yuqi1997/DrivingDojo) |
+| `EUVS` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.05256)<br>Extrapolated Urban View Synthesis Benchmark | ICCV 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://ai4ce.github.io/EUVS-Benchmark/) |
+| `Pi3DET` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2507.17665)<br>Perspective-Invariant 3D Object Detection | ICCV 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://pi3det.github.io) |
+
+
+
+
+# 2. World Modeling from Video Generation
 
 ### :one: Data Engines
 
@@ -245,7 +286,7 @@ Together, these models provide the foundation for simulation, planning, and embo
 
 
 
-# 2. World Modeling from Occupancy Generation
+# 3. World Modeling from Occupancy Generation
 
 ### :one: Scene Representors
 
@@ -324,9 +365,7 @@ Together, these models provide the foundation for simulation, planning, and embo
 
 
 
-
-
-# 3. World Modeling from LiDAR Generation
+# 4. World Modeling from LiDAR Generation
 
 ### :one: Data Engines
 
@@ -397,50 +436,6 @@ Together, these models provide the foundation for simulation, planning, and embo
 | `LidarDM` | [![arXiv](https://img.shields.io/badge/arXiv-2404.02903-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2404.02903)<br>LidarDM: Generative LiDAR Simulation in a Generated World | ICRA 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://zyrianov.org/lidardm/) | [![GitHub](https://img.shields.io/github/stars/vzyrianov/lidardm)](https://github.com/vzyrianov/lidardm) |  
 | `OpenDWM` | [![arXiv](https://img.shields.io/badge/arXiv-2412.02241-b31b1b?style=flat-square&logo=arxiv)](https://github.com/SenseTime-FVG/OpenDWM)<br>OpenDWM: Open Driving World Models |  arXiv 2025 | - | [![GitHub](https://img.shields.io/github/stars/SenseTime-FVG/OpenDWM)](https://github.com/SenseTime-FVG/OpenDWM) |
 | `LiDARCrafter` | [![arXiv](https://img.shields.io/badge/arXiv-2508.03692-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2508.03692)<br>LiDARCrafter: Dynamic 4D World Modeling from LiDAR Sequences | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://lidarcrafter.github.io/) | [![GitHub](https://img.shields.io/github/stars/lidarcrafter/toolkit)](https://github.com/lidarcrafter/toolkit) |
-
-
-
-
-
-# 4. Datasets & Benchmarks
-### Datasets
-
-> :timer_clock: In chronological order, from the earliest to the latest.
-
-| Model | Paper | Venue | Website | 
-|:-:|:-|:-:|:-:|
-||
-| `KITTI` | Are We Ready for Autonomous Driving? The KITTI Vision Benchmark Suite | CVPR 2012 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.cvlibs.net/datasets/kitti/) |
-| `NYUv2` | Indoor Segmentation and Support Inference from RGBD Images | ECCV 2012 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://cs.nyu.edu/~fergus/datasets/nyu_depth_v2.html) |
-| `CARLA` | [![arXiv](https://img.shields.io/badge/arXiv-1711.03938-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1711.03938)<br>CARLA: An Open Urban Driving Simulator | CoRL 2017 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://carla.org/) |
-| `SemanticKITTI` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1904.01416)<br>SemanticKITTI: A Dataset for Semantic Scene Understanding of LiDAR Sequences | ICCV 2019 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://semantic-kitti.org/) |
-| `nuScenes` | [![arXiv](https://img.shields.io/badge/arXiv-1903.11027-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1903.11027)<br>nuScenes: A Multimodal Dataset for Autonomous Driving | CVPR 2020 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.nuscenes.org/) |
-| `Waymo Open` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1912.04838)<br>Scalability in Perception for Autonomous Driving: Waymo Open Dataset | CVPR 2020 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://waymo.com/open/) |
-| `Seeing Through Fog` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/1902.08913)<br>Seeing Through Fog Without Seeing Fog: Deep Multimodal Sensor Fusion in Unseen Adverse Weather | CVPR 2020 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/princeton-computational-imaging/SeeingThroughFog) |
-| `Virtual KITTI 2` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2001.10773)<br>Virtual KITTI 2 | arXiv 2020 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://europe.naverlabs.com/proxy-virtual-worlds-vkitti-2/) |
-| `Argoverse 2` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2301.00493)<br>Argoverse 2: Next Generation Datasets for Self-Driving Perception and Forecasting | NeurIPS 2021 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.argoverse.org/av2.html) |
-| `Lyft-Level5` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2006.14480)<br>One Thousand and One Hours: Self-Driving Motion Prediction Dataset | CoRL 2021 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/lyft/nuscenes-devkit/) |
-| `nuPlan` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2106.11810)<br>nuPlan: A Closed-Loop ML-Based Planning Benchmark for Autonomous Vehicles | CVPRW 2021 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.nuscenes.org/nuplan) |
-| `PandaSet` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2112.12610)<br>PandaSet: Advanced Sensor Suite Dataset for Autonomous Driving | ITSC 2022 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://pandaset.org/) |
-| `OpenCOOD` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2109.07644)<br>OPV2V: An Open Benchmark Dataset and Fusion Pipeline for Perception with Vehicle-to-Vehicle Communication | ICRA 2022 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://mobility-lab.seas.ucla.edu/opv2v/) |
-| `KITTI-360` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2109.13410)<br>KITTI-360: A Novel Dataset and Benchmarks for Urban Scene Understanding in 2D and 3D | TPAMI 2022 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://www.cvlibs.net/datasets/kitti-360/) |
-| `CarlaSC` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2203.07060)<br>MotionSC: Data Set and Network for Real-Time Semantic Mapping in Dynamic Environments | RA-L 2022 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://umich-curly.github.io/CarlaSC.github.io/) |
-| `Robo3D` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2303.17597)<br>Robo3D: Towards Robust and Reliable 3D Perception against Corruptions | ICCV 2023 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/ldkong1205/Robo3D) |
-| `OpenOccupancy` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2303.03991)<br>OpenOccupancy: A Large Scale Benchmark for Surrounding Semantic Occupancy Perception | ICCV 2023 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/JeffWang987/OpenOccupancy) |
-| `Occ3D-nuScenes` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2304.14365)<br>Occ3D: A Large-Scale 3D Occupancy Prediction Benchmark for Autonomous Driving | NeurIPS 2023 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://tsinghua-mars-lab.github.io/Occ3D/) |
-| `OpenDV-YouTube` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2403.09630)<br>GenAD: Generalized Predictive Model for Autonomous Driving | CVPR 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/OpenDriveLab/DriveAGI/blob/main/opendv/README.md) |
-| `SSCBench` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2306.09001)<br>SSCBench: A Large-Scale 3D Semantic Scene Completion Benchmark for Autonomous Driving | IROS 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/ai4ce/SSCBench) |
-| `NAVSIM` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2406.15349)<br>NAVSIM: Data-Driven Non-Reactive Autonomous Vehicle Simulation and Benchmarking | NeurIPS 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://github.com/autonomousvision/navsim) |
-| `DrivingDojo` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2410.10738)<br>DrivingDojo Dataset: Advancing Interactive and Knowledge-Enriched Driving World Model | NeurIPS 2024 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://huggingface.co/datasets/Yuqi1997/DrivingDojo) |
-| `EUVS` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2412.05256)<br>Extrapolated Urban View Synthesis Benchmark | ICCV 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://ai4ce.github.io/EUVS-Benchmark/) |
-| `Pi3DET` | [![arXiv](https://img.shields.io/badge/arXiv-1904.01416-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2507.17665)<br>Perspective-Invariant 3D Object Detection | ICCV 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://pi3det.github.io) |
-
-
-
-### Benchmarks
-
-
-
 
 
 
