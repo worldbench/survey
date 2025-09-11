@@ -88,9 +88,12 @@ Unlike 2D projections, native 3D/4D signals directly encode metric geometry, vis
 
 ## What Are World Models in 3D and 4D?
 
-A world model is an internal representation that allows an agent to imagine, forecast, and interact with its environment.
-- **Generative World Models:** synthesize plausible 3D/4D worlds under conditions (e.g., text prompts, trajectories).
-- **Predictive World Models:** anticipate the future evolution of 3D/4D scenes given past observations and actions.
+A 3D/4D world model is an internal representation that allows an agent to **imagine**, **forecast**, and **interact** with its environment in the 3D space.
+| | |
+|:-:|:-|
+| <img width="100px" src="docs/figures/icon_generative.gif"> | **Generative World Models:**<br>synthesize plausible 3D/4D worlds under conditions (e.g., text prompts, trajectories). |
+| <img width="100px" src="docs/figures/icon_predictive.gif"> | **Predictive World Models:**<br>anticipate the future evolution of 3D/4D scenes given past observations and actions. |
+| | |
 
 Together, these models provide the foundation for simulation, planning, and embodied intelligence in complex environments.
 
