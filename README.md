@@ -70,7 +70,7 @@ If you find this work helpful for your research, please kindly consider citing o
 
 | | |
 |:-:|:-|
-| <img width="250px" src="docs/figures/teaser_anni-min.gif"> | World modeling has become a cornerstone of modern AI, enabling agents to understand, represent, and predict dynamic environments. While prior research has focused primarily on 2D images and videos, the rapid emergence of native 3D and 4D representations (e.g., RGB-D, occupancy grids, LiDAR point clouds) calls for a dedicated study. |
+| <img width="240px" src="docs/figures/teaser_anni-min.gif"> | World modeling has become a cornerstone of modern AI, enabling agents to understand, represent, and predict dynamic environments. While prior research has focused primarily on 2D images and videos, the rapid emergence of native 3D and 4D representations (e.g., RGB-D, occupancy grids, LiDAR point clouds) calls for a dedicated study. |
 | | |
 
 
@@ -105,6 +105,9 @@ Together, these models provide the foundation for simulation, planning, and embo
 
 ### Benchmarks
 
+| <img width="100px" src="docs/figures/logo_worldbench.gif"> | <img width="100px" src="docs/figures/logo_vbench.jpg"> | <img width="100px" src="docs/figures/logo_worldscore.png"> |
+|:-:|:-:|:-:|
+| [**WorldBench**](https://github.com/worldbench/evalkit) | [**VBench**](https://github.com/Vchitect/VBench) | [**WorldScore**](https://github.com/haoyi-duan/WorldScore) | 
 
 
 ### Datasets
