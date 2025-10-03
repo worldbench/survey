@@ -114,6 +114,7 @@ Together, these models provide the foundation for simulation, planning, and embo
 
 | Theme | Venue | Date | Location | Recording |
 |:-|:-:|:-:|:-:|:-:|
+| [Workshop on World Modeling](https://world-model-mila.github.io/) | - | February 4-6, 2026 | Montréal | - |
 | [Workshop on Embodied World Models for Decision Making](https://embodied-world-models.github.io/) | NeurIPS 2025 | December 6, 2025 | San Diego | - |
 | [Workshop on Reliable and Interactable World Models: Geometry, Physics, Interactivity and Real-World Generalization](https://riwm-2025.github.io/RIWM-2025/) | ICCV 2025 | October 19, 2025 | Hawai'i | - |
 | [Workshop on Building Physically Plausible World Models](https://physical-world-modeling.github.io/) | ICML 2025 | July 19, 2025 | Vancouver | - |
