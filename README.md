@@ -39,6 +39,7 @@ If you find this work helpful for your research, please kindly consider citing o
 - [**0. Background**](#background)
 - [**1. Benchmarks \& Datasets**](#1-benchmarks--datasets)
     - [Benchmarks](#benchmarks)
+    - [Workshops](#workshops)
     - [Datasets](#datasets)
 - [**2. World Modeling from Video Generation**](#2-world-modeling-from-video-generation)
     - [Data Engines](#one-data-engines)
@@ -59,7 +60,6 @@ If you find this work helpful for your research, please kindly consider citing o
     - [Video Games \& XR](#three-video-games--xr)
     - [Digital Twins](#four-digital-twins)
 - [**6. Other Resources**](#6-other-resources)
-    - [Workshops](#workshops)
     - [Tutorials](#tutorials)
     - [Talks \& Seminars](#talks--seminars)
 - [**7. Acknowledgements**](#7-acknowledgements)
@@ -108,6 +108,19 @@ Together, these models provide the foundation for simulation, planning, and embo
 | <img width="100px" src="docs/figures/logo_worldbench.gif"> | <img width="100px" src="docs/figures/logo_vbench.jpg"> | <img width="100px" src="docs/figures/logo_worldscore.png"> |
 |:-:|:-:|:-:|
 | [**WorldBench**](https://github.com/worldbench/evalkit) | [**VBench**](https://github.com/Vchitect/VBench) | [**WorldScore**](https://github.com/haoyi-duan/WorldScore) | 
+
+
+### Workshops
+
+| Theme | Venue | Date | Location | Recording |
+|:-|:-:|:-:|:-:|:-:|
+| [Workshop on Embodied World Models for Decision Making](https://embodied-world-models.github.io/) | NeurIPS 2025 | December 6, 2025 | San Diego | - |
+| [Workshop on Reliable and Interactable World Models: Geometry, Physics, Interactivity and Real-World Generalization](https://riwm-2025.github.io/RIWM-2025/) | ICCV 2025 | October 19, 2025 | Hawai'i | - |
+| [Workshop on Building Physically Plausible World Models](https://physical-world-modeling.github.io/) | ICML 2025 | July 19, 2025 | Vancouver | - |
+| [Workshop on Assessing World Models](https://www.worldmodelworkshop.org/) | ICML 2025 | July 18, 2025 | Vancouver | - |
+| [Workshop on Benchmarking World Models](https://worldmodelbench.github.io/) | CVPR 2025 | June 12, 2025 | Nashville | - |
+| [Workshop on World Models: Understanding, Modelling and Scaling](https://sites.google.com/view/worldmodel-iclr2025/) | ICLR 2025 | April 28, 2025 | Singapore | - |
+| [Workshop on Foundation Models for Autonomous Systems](https://opendrivelab.com/cvpr2024/workshop/) | CVPR 2024 | June 17, 2025 | Seattle | [[YouTube](https://www.youtube.com/watch?v=ZnX9SIBTxk4&list=PL3N9otbGBVLcMAccahIvxTyqahqCnb5C1)]
 
 
 ### Datasets
@@ -477,14 +490,14 @@ Together, these models provide the foundation for simulation, planning, and embo
 | `ILVE` | [![arXiv](https://img.shields.io/badge/arXiv-2311.16813-b31b1b?style=flat-square&logo=arxiv)](https://doi.org/10.1145/3582437.3587208)<br>Interactive Latent Variable Evolution for the Generation of Minecraft Structures | ICFDG 2021 | - | - |
 | `ProcTHOR` | [![arXiv](https://img.shields.io/badge/arXiv-2311.16813-b31b1b?style=flat-square&logo=arxiv)](https://proceedings.neurips.cc/paper_files/paper/2022/hash/27c546ab1e4f1d7d638e6a8dfbad9a07-Abstract-Conference.html)<br>ProcTHOR: Large-Scale Embodied AI Using Procedural Generation | NeurIPS 2022 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://procthor.allenai.org/) | [![GitHub](https://img.shields.io/github/stars/allenai/procthor)](https://github.com/allenai/procthor) |
 | `WorldGPT` | [![arXiv](https://img.shields.io/badge/arXiv-2311.16813-b31b1b?style=flat-square&logo=arxiv)](https://doi.org/10.1145/3582437.3587208)<br>WorldGPT: Empowering LLM as Multimodal World Model | ACM MM 2024 | - | [![GitHub](https://img.shields.io/github/stars/DCDmllm/WorldGPT)](https://github.com/DCDmllm/WorldGPT) |
+| `WorldExplorer` | [![arXiv](https://img.shields.io/badge/arXiv-2506.01799-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2506.01799)<br>WorldExplorer: Towards Generating Fully Navigable 3D Scenes | SIGGRAPH Asia 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)]() | [![GitHub](https://img.shields.io/github/stars/mschneider456/worldexplorer)](https://github.com/mschneider456/worldexplorer) |
 | `Text2World` | [![arXiv](https://img.shields.io/badge/arXiv-2502.13092-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2502.13092)<br>Text2World: Benchmarking Large Language Models for Symbolic World Model Generation | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://text-to-world.github.io/) | [![GitHub](https://img.shields.io/github/stars/Aaron617/text2world)](https://github.com/Aaron617/text2world) |
-| `Hunyuan3D 1.0` | [![arXiv](https://img.shields.io/badge/arXiv-2411.02293-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2411.02293)<br>Hunyuan3D 1.0: A Unified Framework for Text-to-3D and Image-to-3D Generation | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://3d.hunyuan.tencent.com) | [![GitHub](https://img.shields.io/github/stars/Tencent-Hunyuan/Hunyuan3D-1)](https://github.com/Tencent-Hunyuan/Hunyuan3D-1) |
-| `Hunyuan3D 2.0` | [![arXiv](https://img.shields.io/badge/arXiv-2501.12202-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2501.12202)<br>Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://3d.hunyuan.tencent.com) | [![GitHub](https://img.shields.io/github/stars/Tencent-Hunyuan/Hunyuan3D-2)](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) |
-| `Hunyuan3D 2.1` | [![arXiv](https://img.shields.io/badge/arXiv-2506.15442-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2506.15442)<br>Hunyuan3D 2.1: From Images to High-Fidelity 3D Assets with Production-Ready PBR Material | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://3d.hunyuan.tencent.com) | [![GitHub](https://img.shields.io/github/stars/Tencent-Hunyuan/Hunyuan3D-2.1)](https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1) |
-| `Hunyuan3D 2.5` | [![arXiv](https://img.shields.io/badge/arXiv-2506.16504-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2506.16504)<br>Hunyuan3D 2.5: Towards High-Fidelity 3D Assets Generation with Ultimate Details | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://3d.hunyuan.tencent.com) | [![GitHub](https://img.shields.io/github/stars/Tencent-Hunyuan/Hunyuan3D-2)](https://github.com/Tencent-Hunyuan/Hunyuan3D-2) |
+| `FlexWorld` | [![arXiv](https://img.shields.io/badge/arXiv-2503.13265-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2503.13265)<br>FlexWorld: Progressively Expanding 3D Scenes for Flexiable-View Synthesis | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://ml-gsai.github.io/FlexWorld/) | [![GitHub](https://img.shields.io/github/stars/ML-GSAI/FlexWorld)](https://github.com/ML-GSAI/FlexWorld) |
 | `Hunyuan-GameCraft` | [![arXiv](https://img.shields.io/badge/arXiv-2506.17201-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2506.17201)<br>Hunyuan-GameCraft: High-dynamic Interactive Game Video Generation with Hybrid History Condition | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://hunyuan-gamecraft.github.io/) | [![GitHub](https://img.shields.io/github/stars/Tencent-Hunyuan/Hunyuan-GameCraft-1.0)](https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0) |
 | `HunyuanWorld 1.0` | [![arXiv](https://img.shields.io/badge/arXiv-2507.21809-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2507.21809)<br>HunyuanWorld 1.0: Generating Immersive, Explorable, and Interactive 3D Worlds from Words or Pixels | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)](https://3d.hunyuan.tencent.com/sceneTo3D) | [![GitHub](https://img.shields.io/github/stars/Tencent-Hunyuan/HunyuanWorld-1.0)](https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0) |
-| `MGVQ` | [![arXiv](https://img.shields.io/badge/arXiv-2507.07997-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2507.07997)<br>MGVQ: Could VQ-VAE Beat VAE? A Generalizable Tokenizer with Multi-Group Quantization | arXiv 2025 | [![Website](https://img.shields.io/badge/Link-yellow?style=flat-square&logo=gitbook)]() | [![GitHub](https://img.shields.io/github/stars/MKJia/MGVQ)](https://github.com/MKJia/MGVQ) |
+| `MGVQ` | [![arXiv](https://img.shields.io/badge/arXiv-2507.07997-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2507.07997)<br>MGVQ: Could VQ-VAE Beat VAE? A Generalizable Tokenizer with Multi-Group Quantization | arXiv 2025 | - | [![GitHub](https://img.shields.io/github/stars/MKJia/MGVQ)](https://github.com/MKJia/MGVQ) |
+| `EvoWorld` | [![arXiv](https://img.shields.io/badge/arXiv-2510.01183-b31b1b?style=flat-square&logo=arxiv)](https://arxiv.org/abs/2510.01183)<br>EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory | arXiv 2025 | - | [![GitHub](https://img.shields.io/github/stars/JiahaoPlus/EvoWorld)](https://github.com/JiahaoPlus/EvoWorld) |
+
 
 
 ### :four: Digital Twins
@@ -502,11 +515,6 @@ Together, these models provide the foundation for simulation, planning, and embo
 
 
 # 6. Other Resources
-
-### Workshops
-- [`CVPR 2025 Workshop & Challenge | OpenDriveLab`](https://opendrivelab.com/challenge2025/#1x-wm) Track: World Model.
-- [`World Model Bench @ CVPR'25`](https://worldmodelbench.github.io/) WorldModelBench: The 1st Workshop on Benchmarking World Models
-- [`CVPR 2024 Workshop & Challenge | OpenDriveLab`](https://opendrivelab.com/challenge2024/#predictive_world_model) Track #4: Predictive World Model.
 
 
 ### Tutorials
